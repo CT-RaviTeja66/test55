@@ -8,4 +8,7 @@ node{
     stage('repo cloning'){
         git branch: 'main', url: 'https://github.com/CT-RaviTeja66/test55.git'
     }
+    stage('Artifacts'){
+        archiveArtifacts artifacts: 'helloworld.java', followSymlinks: false
+    }
 }
