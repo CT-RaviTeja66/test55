@@ -4,11 +4,9 @@ class test{
                 test1();
                 test2();
         }
-        public static void test1(){
-                System.out.println("Hello test1");
-        }     
+public static void test1(){
+        System.out.println("Hello test1");
 }
 public static void test2(){
-                System.out.println("Hello test2");
-        }     
+        System.out.println("Hello test2");
 }
