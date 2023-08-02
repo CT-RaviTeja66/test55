@@ -4,7 +4,7 @@ class test{
                 test1();
                 test2();
         }
-        public static void test(){
+        public static void test1(){
                 System.out.println("Hello test1");
         }     
 }
