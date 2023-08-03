@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'aws-ec2' }
+    agent { label '10.100.30.83' }
     stages {
         stage('Clone repository') {
             steps {
